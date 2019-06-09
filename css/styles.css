@@ -1,9 +1,11 @@
 div[id="wel"]{
   background-image:url(../images/h_img.jpg);
   background-repeat: no-repeat;
-  background-size: 100%,100%;
+  background-size: cover;
   overflow-x: hidden;
   color: white;
+  margin-left: 0;
+  margin-right: 0;
 }
 wel.logo.png {
   position: center;
@@ -13,8 +15,9 @@ div[id="ser"]{
   color: white;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  border-image-width: 100%;
+  overflow-x: hidden;
+  margin-left: 0;
+  margin-right: 0;
 }
 h1{
   text-align: center;
@@ -34,6 +37,21 @@ img[id="wel"]{
 }
 .design-hidden {
   display: none;
-  {
-
-div[id="wedo"]
+}
+div[id=design] {
+margin-left: 25%;
+}
+div[id=development] {
+  margin-left: 40%;
+  margin-top: -6%;
+}
+.development-hidden{
+  display: none;
+}
+div[id=product] {
+  margin-left: 70%;
+  margin-top: -15%;
+}
+.product-hidden{
+  display: none;
+}
