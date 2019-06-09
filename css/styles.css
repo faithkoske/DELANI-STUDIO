@@ -1,9 +1,8 @@
 div[id="wel"]{
   background-image:url(../images/h_img.jpg);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%,100%;
-  background-color: white;
+  background-size: cover;
+  overflow-x: hidden;
   color: white;
 }
 wel.logo.png {
@@ -12,4 +11,24 @@ wel.logo.png {
 div[id="ser"]{
   background-image: url(../images/s_image.jpg);
   color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-image-width: 100%;
+}
+h1{
+  text-align: center;
+}
+p{
+  text-align: center;
+  font-size: 9px;
+}
+h2{
+  text-align: center;
+  }
+h3{
+  text-align: center;
+}
+img[id="wel"]{
+  margin-left: 40%;
 }
