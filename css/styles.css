@@ -1,7 +1,7 @@
 div[id="wel"]{
   background-image:url(../images/h_img.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%,100%;
   overflow-x: hidden;
   color: white;
   margin-left: 0;
@@ -13,8 +13,10 @@ wel.logo.png {
 div[id="ser"]{
   background-image: url(../images/s_image.jpg);
   color: white;
-  background-size: cover;
+  background-size: 100%,100%;
   background-repeat: no-repeat;
+  background-position: centre;
+  background-position-x: 0%;
   overflow-x: hidden;
   margin-left: 0;
   margin-right: 0;
@@ -88,13 +90,13 @@ input[id="email"] {
 div[id="4"]{
   background-image:url(../images/c_image.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:100%,100%;
   overflow-x: hidden;
   color: white;
-  margin-left: 0;
-  margin-right: 0;
+  background-position: centre;
   text-align: center;
   margin-top: 4%; 
+
 }
 div[id="wedo"]{
   margin-bottom: 10%;
@@ -103,6 +105,6 @@ div[id="wedo"]{
   margin-right: 0%;
 }
 div[id="social"]{
-margin-top:45%;
-position: centre;
+margin-top:4%;
+margin-left: 35%;
 }
