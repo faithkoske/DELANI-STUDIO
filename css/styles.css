@@ -38,12 +38,12 @@ img[id="wel"]{
 .design-hidden {
   display: none;
 }
-div[id=design] {
+div[id="design"] {
 margin-left: 25%;
 }
 div[id=development] {
   margin-left: 40%;
-  margin-top: -6%;
+  margin-top: -9%;
 }
 .development-hidden{
   display: none;
@@ -55,6 +55,50 @@ div[id=product] {
 .product-hidden{
   display: none;
 }
-div[id="mse"]{
-  position: centre;
+.col-md-3:hover {
+  opacity: 0.3;
+}
+
+h2{
+  margin top: 3%;
+  margin bottom:10%;
+}
+h3{
+  padding: 3%;
+}
+input {
+  border-radius: 5px;
+}
+input[id="name"] {
+  width: 35%;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+}
+textarea {
+  border-radius: 5px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  margin-top: 1%;
+}
+input[id="email"] {
+  width: 35%;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+}
+div[id="4"]{
+  background-image:url(../images/c_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  color: white;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  margin-top: 4%; 
+}
+div[id="wedo"]{
+  margin-bottom: 10%;
+  margin-top: 4%;
+  margin-left: 0%;
+  margin-right: 0%;
 }
