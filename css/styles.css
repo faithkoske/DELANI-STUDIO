@@ -102,3 +102,7 @@ div[id="wedo"]{
   margin-left: 0%;
   margin-right: 0%;
 }
+div[id="social"]{
+margin-top:45%;
+position: centre;
+}
