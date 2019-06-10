@@ -5,7 +5,7 @@ div[id="wel"]{
   overflow-x: hidden;
   color: white;
   margin-left: 0;
-  margin-right: 0;
+  margin-right: 0
 }
 wel.logo.png {
   position: center;
@@ -54,4 +54,7 @@ div[id=product] {
 }
 .product-hidden{
   display: none;
+}
+div[id="mse"]{
+  position: centre;
 }
