@@ -1,38 +1,85 @@
 $(document).ready(function(){
-  $(".state1").click(function(){
-      $(".state1").hide();
-      $(".design").show();
-      $(".arm1").toggle();
+
+    $('#column1 .paragraph').hide();
+    $('#column2 .paragraph').hide();
+    $('#column3 .paragraph').hide();
+
+ 
+
+  $('#column1').click(function(){
+    $('#column1 .services-image').toggle();
+    $('#column1 .paragraph').toggle();
   });
 
-  $(".arm1").click(function(){
-      $(".state1").show();
-      $(".arm1").toggle();
+  $('#column2').click(function(){
+    $('#column2 .services-image').toggle();
+    $('#column2 .paragraph').toggle();
   });
 
-  
-
-  $("#state2").click(function(){
-      $("#state2").hide();
-      $(".development").show();
-      $(".arm2").toggle();
+  $('#column3').click(function(){
+    $('#column3 .services-image').toggle();
+    $('#column3 .paragraph').toggle();
+  });
+  $(".pt").mouseenter(function(){
+    $(".pg").show();
+  });
+  $(".pt").mouseleave(function(){
+    $(".pg").hide();
   });
 
-  $(".arm2").click(function(){
-      $("#state2").show();
-      $(".arm2").toggle();
+  $(".pt1").mouseenter(function(){
+    $(".pg1").show();
+  });
+  $(".pt1").mouseleave(function(){
+    $(".pg1").hide();
   });
 
-  
-
-  $("#state3").click(function(){
-      $("#state3").hide();
-      $(".development").show();
-      $(".arm3").toggle();
+  $(".pt2").mouseenter(function(){
+    $(".pg2").show();
+  });
+  $(".pt2").mouseleave(function(){
+    $(".pg2").hide();
   });
 
-  $(".arm3").click(function(){
-      $("#state3").show();
-      $(".arm3").toggle();
+  $(".pt3").mouseenter(function(){
+    $(".pg3").show();
+  });
+  $(".pt3").mouseleave(function(){
+    $(".pg3").hide();
+  });
+  $(".pt4").mouseenter(function(){
+    $(".pg4").show();
+  });
+  $(".pt4").mouseleave(function(){
+    $(".pg4").hide();
+  });
+  $(".pt5").mouseenter(function(){
+    $(".pg5").show();
+  });
+  $(".pt5").mouseleave(function(){
+    $(".pg5").hide();
+  });
+  $(".pt6").mouseenter(function(){
+    $(".pg6").show();
+  });
+  $(".pt6").mouseleave(function(){
+    $(".pg6").hide();
+  });
+  $(".pt7").mouseenter(function(){
+    $(".pg7").show();
+  });
+  $(".pt7").mouseleave(function(){
+    $(".pg7").hide();
+  });
+
+
+
+
+
+
+
+  $('button#btn').click(function(){
+      alert("Thanks we have received your message")
+
   });
 });
