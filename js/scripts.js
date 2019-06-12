@@ -14,7 +14,7 @@ $(document).ready(function(){
 
   $("#state2").click(function(){
       $("#state2").hide();
-      $("#development").show();
+      $(".development").show();
       $(".arm2").toggle();
   });
 
@@ -27,7 +27,7 @@ $(document).ready(function(){
 
   $("#state3").click(function(){
       $("#state3").hide();
-      $("#development").show();
+      $(".development").show();
       $(".arm3").toggle();
   });
 
