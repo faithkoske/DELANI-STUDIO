@@ -6,9 +6,7 @@
   <title>DELANI STUDIO</title>
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
   <link rel="stylesheet" href="css/styles.css">
-  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-    crossorigin="anonymous"></script>
-  <script src="js/scripts.js"></script>
+  
 </head>
 
 <body>
@@ -48,24 +46,36 @@
   <h3>WHAT WE DO</h3>
            <div class="serviceicons">
                  <div class="row">
-                    <div class="col-md-4" class="fost1">
-                        <img src="images/design_icon.png" class="state1" class="img-fluid">
-                        <p class="design"><b>DESIGN</b></p>
-                        <div class="arm1">
-                        <p >Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing</p> <p>Throughout your project, our designers create and implement visual design and worflows,solicit user feedback and work eith you to make sure what gets built is what is needed.</p>
+                    <div id="column1" class="col-md-4" class="fost1">
+                        <div class="services-image">
+                            <img src="images/design_icon.png" class="state1" class="img-fluid">
+                            <p class="design"><b>DESIGN</b></p>
+                        </div>
+                        <div class="arm1 paragraph">
+                          <p class="design"><b>DESIGN</b></p>
+                          <p >Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing</p> <p>Throughout your project, our designers create and implement visual design and worflows,solicit user feedback and work eith you to make sure what gets built is what is needed.</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div id="column2" class="col-md-4">
+                      <div class="services-image">
                         <img src="images/dev_icon.png" id="state2" class="img-fluid">
                         <p class="development"><b>DEVELOPMENT</b></p>
-                        <div class="arm2">
+                    </div>
+                        
+                       
+                        <div class="arm2 paragraph">
+                            <p class="development"><b>DEVELOPMENT</b></p>
                             <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p><p>They collaborate with your team to write and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div id="column3" class="col-md-4">
+                      <div class="services-image"> 
                         <img src="images/product_icon.png" id="state3" class="img-fluid">
                         <p class="product"><b>PRODUCT MANAGMENT</b></p>
-                        <div class="arm3">
+                      </div>
+                       
+                        <div class="arm3 paragraph">
+                            <p class="product"><b>PRODUCT MANAGMENT</b></p>
                             <p>Planning and development is iterative. Because we are constantly coding and testing the product we build are always ready to go live</p><p>This iterative process allows for changes as business requirements evolve</p>
                         </div>
                     </div>
@@ -74,31 +84,40 @@
   <div id="portfolio">
     <h2>PORTFOLIO</h2>
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-3 pt">
         <img src="images/work4.jpg" alt="work4">
+        <div class="pg text-block" ><p>blank</p></div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 pt1">
         <img src="images/work3.jpg" alt="work3">
+        <div class="pg1 text-block"><p>blank</p></div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 pt2">
         <img src="images/work2.jpg" alt="work2">
+        <div class="pg2 text-block"><p>blank</p></div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 pt3">
         <img src="images/work1.jpg" alt="work1">
+        <div class="pg3 text-block "><p>blank</p></div>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-3 pt4">
         <img src="images/work5.jpg" alt="work5">
+        <div class="pg4 text-block"><p>blank</p></div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 pt5">
         <img src="images/work6.jpg" alt="work6">
+        <div class="pg5 text-block"><p>blank</p></div>
+        
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 pt6">
         <img src="images/work7.jpg" alt="work7">
+        <div class="pg6 text-block "><p>blank</p></div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 pt7">
         <img src="images/work8.jpg" alt="work8">
+        <div class="pg7 text-block"><p>blank</p></div>
       </div>
     </div>
       <div id="4">
@@ -108,7 +127,7 @@
           <br>
           <textarea id="textarea" name="message" cols="90" rows="8" placeholder="Your message here..."></textarea>
           <br></br>
-          <button class="button" type="submit">Send</button>
+          <button class="button" id="btn" type="submit">Send</button>
 
           <em><p id="answer"></p></em>
           <br>
@@ -132,7 +151,9 @@
       </div>
 
     </div>
-
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>
