@@ -6,6 +6,8 @@ A fictional website that uses bootsrap and jquery for practice
 Faith Koske is a programming student in Moringa School.
 # Setup instructions
 One requires access to the internet and a device(computer,smart phone)
+# Link to Live Site
+https://faithkoske.github.io/DELANI-STUDIO/
 # Technologies
 HTML
 CSS
